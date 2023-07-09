@@ -35,6 +35,7 @@
     margin-top: 2%;
   }
   
+  
   .cell {
     height: 50px;
     width: 50px;
@@ -47,6 +48,13 @@
     align-items: center;
     justify-content: center;
     color: #8a2be2;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cell:hover {
+    background-color: #8a2be2;
+    color: #ffffff;
+    cursor: pointer;
   }
   
   input {
@@ -60,7 +68,9 @@
     color: #8a2be2;
   }
   
-  button {
+ 
+
+   button {
     height: 70px;
     width: 200px;
     font-size: 1.5rem;
@@ -71,7 +81,16 @@
     color: #fff;
     cursor: pointer;
     margin-top: 2%;
+    transition: all 0.3s ease;
   }
+  
+  button:hover {
+    background-color: #6d1fba;
+    border-color: #6d1fba;
+    transform: scale(1.05);
+  }
+
+
   
   #start {
     position: absolute;
@@ -113,7 +132,7 @@
     position: absolute;
     top: 13%;
     left: 72%;
-    color: #008000;
+    color: #8a2be2;
     font-weight: bold;
     font-size: 1.5rem;
   }
@@ -123,7 +142,7 @@
     top: 10%;
     left: 3%;
     font-size: 1.5rem;
-    color: #fff;
+    color: #8a2be2;
     font-weight: bold;
   }
    
