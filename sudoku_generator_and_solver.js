@@ -1,3 +1,4 @@
+//here is the main logic 
 currentArray=[];
 //sudoku generator and solver by using backtracking algorithm
 function generateSudoku(difficulty) {
