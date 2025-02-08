@@ -1,4 +1,4 @@
-
+//here is the changes to be done
 coordinate_to_id = {};
 id_to_coordinate = {};
 let cnt = 0;
